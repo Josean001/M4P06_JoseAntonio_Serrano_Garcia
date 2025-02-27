@@ -23,9 +23,10 @@ function draw() {
 
         // Círculo azul
         ctx.beginPath();
-        ctx.arc(250, 80, 50, 0, 360);
+        ctx.arc(250, 80, 50, 0, 2 * Math.PI);
         ctx.fillStyle = "#3070d4";
         ctx.fill();
         ctx.stroke();
     }
+    
 }
